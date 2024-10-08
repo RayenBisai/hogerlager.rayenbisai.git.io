@@ -1,0 +1,60 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh; /* Zorgt ervoor dat de inhoud verticaal gecentreerd is */
+  margin: 0;
+  background-image: url("/img/dice1.jpg");
+}
+
+.container {
+  text-align: center; /* Center de tekst en knoppen */
+}
+
+h1 {
+  margin: 0; /* Geen marge voor de titel */
+  padding-bottom: 20px; /* Ruimte onder de titel */
+  color: white;
+}
+
+button {
+  font-size: 20px; /* Vergroot de tekst van de knoppen */
+  padding: 10px 20px; /* Voegt wat ruimte rondom de tekst toe */
+  margin: 10px; /* Ruimte tussen de knoppen */
+  cursor: pointer; /* Verandert de cursor bij hover */
+  background-color: black;
+  color: white;
+}
+
+.dice-container {
+  display: flex; /* Flexbox voor de afbeeldingen */
+  justify-content: center; /* Center de afbeeldingen */
+  margin-top: 20px; /* Ruimte boven de afbeeldingen */
+}
+
+.dice {
+  width: 150px; /* Stel een breedte in voor de dobbelstenen */
+  height: auto; /* Zorg ervoor dat de hoogte proportioneel is */
+  margin: 0 10px; /* Ruimte tussen de dobbelstenen */
+}
+
+.score-container {
+  display: flex; /* Flexbox voor de scores */
+  justify-content: center; /* Center de scores */
+  width: 100%; /* Zorg ervoor dat het de volle breedte gebruikt */
+  margin-top: 20px; /* Ruimte boven de scores */
+}
+
+#playerscore,
+#computerscore {
+  font-weight: bold; /* Gebruik font-weight voor vetgedrukte tekst */
+  color: white;
+  margin: 0 50px; /* Ruimte tussen de scores */
+}
+#DScore {
+    position: relative;
+    bottom: 260px;
+    right: 150px;
+  color: white; 
+} /*maakt de diceScore wit van kleur
